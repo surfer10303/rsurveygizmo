@@ -24,7 +24,7 @@ pullsg_campaign <- function(surveyid, api, reset_row_names=TRUE, customfields=TR
 
 	# Set hard-coded URL parameters
 	token <- paste0('?api_token=', api) # Must be in the first trailing URL position
-	url      <- 'https://restapi.surveygizmo.com/v4/survey/'
+	url      <- 'https://restapi.alchemer-ca.com/v4/survey/'
 	camp <- "/surveycampaign/"
 	cont <- "/contact/"
 
